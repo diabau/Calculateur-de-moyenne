@@ -6,7 +6,7 @@ while note != "stop":
     if note != "stop":
         coef = input("Entrez le coefficient de la note: ")
         noteaveccoef = int(note) * int(coef)
-        coef = int(coef)  # Convert coef to an integer
-        nombredenote = nombredenote + 1
+        coef = int(coef) 
+        nombredenote = nombredenote + coef
         total = int(noteaveccoef)+ total
         print("La moyenne est de: ", total / nombredenote)
